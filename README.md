@@ -6,11 +6,21 @@ This repository contains the code for the paper "".
 
 To run the code, you need to clone the repository and install the requirements:
 
+1. Clone the repository and navigate to the project folder:
+
 ```bash
-git clone https://github.com/conect2ai/METHODX2024-risk-agent.git
-cd METHODX2024-risk-agent
-python -m venv venv
-source venv/bin/activate
+git clone https://github.com/conect2ai/METHODX2024-risk-agent.git && cd METHODX2024-risk-agent
+```
+
+2. Create a virtual environment and activate it:
+
+```bash
+python -m venv venv && source venv/bin/activate
+```
+
+3. Install the requirements:
+
+```bash
 pip install -r requirements.txt
 ```
 
