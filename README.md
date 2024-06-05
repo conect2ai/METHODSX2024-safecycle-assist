@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the code for the paper "".
+This repository contains the code for the paper "SafeCycle-LLM".
 
 # Requirements
 
@@ -9,7 +9,7 @@ To run the code, you need to clone the repository and install the requirements:
 1. Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/conect2ai/METHODX2024-risk-agent.git && cd METHODX2024-risk-agent
+git clone https://github.com/conect2ai/METHODX2024-safecycle-llm.git && cd METHODX2024-safecycle-llm
 ```
 
 2. Create a virtual environment and activate it:
