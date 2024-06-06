@@ -30,7 +30,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
     return c * r
 
-def find_nearest_risk_lane(lat, lon, data):
+def find_nearest_risk_point(lat, lon, data):
     distances = data.apply(lambda row: haversine(lat, lon, row['lat'], row['lon']), axis=1)
 
     nearest_index = distances.idxmin()
@@ -59,7 +59,7 @@ class RiskPointTool(BaseTool):
         lon: float
     ) -> str:
         data = pd.read_csv('risk_map.csv', sep=";")
-        risk_lane = find_nearest_risk_lane(lat, lon, data)
+        risk_lane = find_nearest_risk_point(lat, lon, data)
 
         return risk_lane
 
@@ -95,7 +95,7 @@ class RiskTripTool(BaseTool):
 
         for node in route:
             node_data = graph.nodes[node]
-            risk_lane = find_nearest_risk_lane(node_data['y'], node_data['x'], data)
+            risk_lane = find_nearest_risk_point(node_data['y'], node_data['x'], data)
             risk[risk_lane] += 1
 
         sum_risk = risk[1] + risk[2] + risk[3]
