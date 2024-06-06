@@ -75,4 +75,8 @@ Output for the [Example 2](#example-2):
 
 >The risk level associated with the point at latitude 41.1246 and longitude -8.5717 is high (Level 3). This indicates that the area poses significant hazards and is recommended only for very experienced cyclists. It is far from emergency services and other emergency-related amenities.
 >
->Given the high risk level, I recommend considering an alternative route to ensure your safety. If you provide me with the starting and ending points of your trip, I can assist you in evaluating a safer route. Remember to wear appropriate safety gear, check the weather conditions, carry a basic repair kit, stay hydrated, and share your route details with someone in case of an emergency.  
+>Given the high risk level, I recommend considering an alternative route to ensure your safety. If you provide me with the starting and ending points of your trip, I can assist you in evaluating a safer route. Remember to wear appropriate safety gear, check the weather conditions, carry a basic repair kit, stay hydrated, and share your route details with someone in case of an emergency.
+
+# Aknowledgements
+
+This work is financially supported by national funds through the FCT/MCTES (PIDDAC), under the RELIABLE project PTDC/EEI-AUT/3522/2020 (DOI 10.54499/PTDC/EEI-AUT/3522/2020), the Associate Laboratory Advanced Production and Intelligent Systems – ARISE LA/P/0112/2020 (DOI 10.54499/LA/P/0112/2020) and the Base Funding (UIDB/00147/2020) and Programmatic Funding (UIDP/00147/2020) of the R\&D Unit Center for Systems and Technologies – SYSTEC. Additionally, this study was partly financed by the Brazilian fostering agency CNPq (National Council for Scientific and Technological Development), Process No. 405531/2022-2.
