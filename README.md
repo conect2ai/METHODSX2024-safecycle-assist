@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the code for the paper "SafeCycle-Assistant".
+This repository contains the code for the paper "SafeCycle-Assistant". The code uses the OpenAI API to generate a risk assessment for a cycling trip or point of interest. To contextualize the model, the prompt in [context](context.md) was used.
 
 # Requirements
 
