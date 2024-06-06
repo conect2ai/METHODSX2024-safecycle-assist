@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the code for the paper "SafeCycle-Assistant". The code uses the OpenAI API to generate a risk assessment for a cycling trip or point of interest. To contextualize the model, the prompt in [context](context.md) was used.
+This repository contains the code for the method "SafeCycle-Assist", designed to support safer cycling patterns in urban environments, leveraging for that Large Language Models (LLMs), AI-based agents, and open geospatial data. This repository is an implementation of the method, which employs the OpenAI API to generate a risk assessment for a cycling trip or point of interest, as well as data from the CityZones tool. To contextualize the model, the prompt in [context](context.md) was used as one of the inputs.
 
 # Requirements
 
