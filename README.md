@@ -9,7 +9,7 @@ To run the code, you need to clone the repository and install the requirements:
 1. Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/conect2ai/METHODX2024-safecycle-assistant.git && cd METHODX2024-safecycle-assistant
+git clone https://github.com/conect2ai/METHODX2024-safecycle-assist.git && cd METHODX2024-safecycle-assist
 ```
 
 2. Create a virtual environment and activate it:
